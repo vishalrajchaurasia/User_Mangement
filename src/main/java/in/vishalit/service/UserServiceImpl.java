@@ -40,7 +40,7 @@ public class UserServiceImpl implements UserService {
 	@Autowired
 	private EmailService emailService;
 	
-	Random random = new Random();
+	Random random = new Random(); //after code review write here 
 
 	@Override
 	public Map<Integer, String> getCountries() {
